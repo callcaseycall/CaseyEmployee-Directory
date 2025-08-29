@@ -6,7 +6,7 @@ export default app;
 import employees from "./db/employees.js";
 
 app.route("/").get((req, res) => {
-  res.send("Hello Employees!");
+  res.send("Hello employees!");
 });
 
 app.route("/employees").get((req, res) => {
